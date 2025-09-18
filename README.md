@@ -1,5 +1,10 @@
 # 🔖 文献标签自动生成器（Controlled-Tagger）
 
+本项目可 [zotero-gpt](https://github.com/MuiseDestiny/zotero-gpt) 搭配使用：
+- 在 Zotero 中调用 GPT 助手批量生成笔记/摘要  
+- 用 Controlled-Tagger 自动生成标准化标签  
+👉 实现 **“笔记 + 标签” 一体化文献管理流程**
+
 > 从论文**摘要/全文**中，基于**受控词表**（Field / Object / Method / Type）自动抽取并返回 **3–5 个标准化标签（JSON 数组）**。支持独立命令行 & Zotero 内联触发。
 
 <img width="2639" height="1517" alt="image" src="https://github.com/user-attachments/assets/d66829c6-df12-4c20-8cda-bd97e13dd7c3" />
