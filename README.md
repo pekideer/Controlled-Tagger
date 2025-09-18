@@ -2,10 +2,7 @@
 
 > 从论文**摘要/全文**中，基于**受控词表**（Field / Object / Method / Type）自动抽取并返回 **3–5 个标准化标签（JSON 数组）**。支持独立命令行 & Zotero 内联触发。
 
-![screenshot-main](./docs/screenshot-main.png)
-
-> 截图占位：在此放置你的主界面/运行结果截图
-
+<img width="2639" height="1517" alt="image" src="https://github.com/user-attachments/assets/d66829c6-df12-4c20-8cda-bd97e13dd7c3" />
 ---
 
 ## ✨ 特性
@@ -13,16 +10,12 @@
 * **受控词表 + 标准输出**：严格输出命名空间 `#Field/… #Object/… #Method/… #Type/…` 的标签，减少歧义，便于长期协同维护。
 * **双语抽取**：同时识别中英文关键词段落（Keywords/关键词），并结合全文上下文增强召回。
 * **可嵌入 Zotero**：支持在 Zotero 内以**悬浮通知**提示进度、无阻塞执行，将结果回填到条目标签/笔记。
-* **离线可用**：本地处理，不依赖外网（默认模型/规则）；可选接入 LLM 提升召回与鲁棒性。
 * **可扩展**：词表、正则规则、停用词、切片策略、输出过滤器均可配置。
-
 ---
 
 ## 🧰 环境需求
 
-* Node.js ≥ 18（推荐 20+）
-* （可选）Python ≥ 3.10（若使用混合管线或评测脚本）
-* （可选）Zotero 7+（若启用内联触发）
+* 基于Awesome GPT Command Tag功能，详细开始步骤见https://github.com/MuiseDestiny/zotero-gpt?tab=readme-ov-file#hi-command-tag
 
 ---
 
