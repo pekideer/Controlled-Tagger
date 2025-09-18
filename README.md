@@ -1,5 +1,6 @@
 # 🔖 文献标签自动生成器（Controlled-Tagger）
 **A script based on awesomegpt that can automatically generate literature tags using GPT**
+---
 本项目需 [zotero-gpt](https://github.com/MuiseDestiny/zotero-gpt) 搭配使用：
 - 在 Zotero 中调用 GPT 助手批量生成笔记/摘要  
 - 用 Controlled-Tagger 自动生成标准化标签  
