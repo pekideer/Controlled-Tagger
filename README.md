@@ -37,25 +37,13 @@
 // 受控词表（Controlled Vocabulary）
 const CONTROLLED = new Set([
   "#Field/BuildingEnergyConsumption",
-  "#Field/PassiveEnergy-savingTech",
-  "#Field/RadiantFloorHeating",
-  "#Field/IndoorThermalComfort",
-  "#Field/EnvelopeAging",
-  "#Field/MaterialDegradation",
-  "#Field/EnergySavingRetrofit",
-  "#Field/OccupantBehavior",
   "#Field/IndoorAirQuality",
 
   // ✅ 在此处增删你自己的关键词（GitHub 会把这一行显示为绿色）
 
-  "#Object/Furniture",
   "#Object/RuralResidence",
-  "#Object/Low-eMaterial",
   "#Method/MachineLearning",
-  "#Method/ResidualAnalysis",
-  "#Method/TimeSeriesAnalysis",
   "#Method/CFD",
-  "#Method/BuildingEnergySimulation",
   "#Method/Experiment",
   "#Type/Review"
 ]);
