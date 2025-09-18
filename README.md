@@ -1,8 +1,6 @@
-# Auto-add-tags
----
 # 🔖 文献标签自动生成器（Controlled-Tagger）
 
-> 从论文**摘要/全文**中，基于**受控词表**（Field / Object / Method / Type）自动抽取并返回 **3–5 个标准化标签（JSON 数组）**。支持独立命令行 & Zotero 内联触发，聚焦建筑环境/暖通/材料等方向的论文管理与知识库规范化。
+> 从论文**摘要/全文**中，基于**受控词表**（Field / Object / Method / Type）自动抽取并返回 **3–5 个标准化标签（JSON 数组）**。支持独立命令行 & Zotero 内联触发。
 
 ![screenshot-main](./docs/screenshot-main.png)
 
