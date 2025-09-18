@@ -28,8 +28,13 @@
 ## 🚀 快速开始
 
 #### 定制受控词表
-```text
-在此处修改为自己的关键词 ↓
+```markdown
+## 🔧 配置受控词表（可自定义）
+
+将下方代码复制到你的文档里。**中间那行绿色注释**标明了可增删自定义关键词的位置。
+
+```js
+// 受控词表（Controlled Vocabulary）
 const CONTROLLED = new Set([
   "#Field/BuildingEnergyConsumption",
   "#Field/PassiveEnergy-savingTech",
@@ -40,6 +45,9 @@ const CONTROLLED = new Set([
   "#Field/EnergySavingRetrofit",
   "#Field/OccupantBehavior",
   "#Field/IndoorAirQuality",
+
+  // ✅ 在此处增删你自己的关键词（GitHub 会把这一行显示为绿色）
+
   "#Object/Furniture",
   "#Object/RuralResidence",
   "#Object/Low-eMaterial",
@@ -51,7 +59,6 @@ const CONTROLLED = new Set([
   "#Method/Experiment",
   "#Type/Review"
 ]);
-
 
 ```
 ## 🤝 贡献
