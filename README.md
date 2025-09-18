@@ -3,7 +3,7 @@
 > 从论文**摘要/全文**中，基于**受控词表**（Field / Object / Method / Type）自动抽取并返回 **3–5 个标准化标签（JSON 数组）**。支持独立命令行 & Zotero 内联触发。
 
 <img width="2639" height="1517" alt="image" src="https://github.com/user-attachments/assets/d66829c6-df12-4c20-8cda-bd97e13dd7c3" />
----
+
 
 ## ✨ 特性
 
@@ -13,7 +13,7 @@
 * **可扩展**：词表、正则规则、停用词、切片策略、输出过滤器均可配置。
 ---
 
-## 🧰 环境需求
+## 🧰 适用插件
 
 * 基于Awesome GPT Command Tag功能，详细开始步骤见https://github.com/MuiseDestiny/zotero-gpt?tab=readme-ov-file#hi-command-tag
 
@@ -63,13 +63,11 @@
 
 ## 📜 许可证
 
-本项目采用 **MIT License**（见 [LICENSE](./LICENSE)）。
+本项目采用 **MIT License**（见 [LICENSE](./LICENSE)）（GPT生成）。
 
 ---
 
 ## 🙌 致谢
 
-* 社区用户与同领域研究者的测试反馈
-* 开源解析与评测工具生态（pdfminer/GROBID 等）
 
 ---
