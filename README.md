@@ -29,32 +29,30 @@
 
 #### 定制受控词表
 ```json
-{
-在此处修改为自己的关键词↓
 
-  const CONTROLLED = new Set([
-    "#Field/BuildingEnergyConsumption",
-    "#Field/PassiveEnergy-savingTech",
-    "#Field/RadiantFloorHeating",
-    "#Field/IndoorThermalComfort",
-    "#Field/EnvelopeAging",
-    "#Field/MaterialDegradation",
-    "#Field/EnergySavingRetrofit",
-    "#Field/OccupantBehavior",
-    "#Field/IndoorAirQuality",
-    "#Object/Furniture",
-    "#Object/RuralResidence",
-    "#Object/Low-eMaterial",
-    "#Method/MachineLearning",
-    "#Method/ResidualAnalysis",
-    "#Method/TimeSeriesAnalysis",
-    "#Method/CFD",
-    "#Method/BuildingEnergySimulation",
-    "#Method/Experiment",
-    "#Type/Review"
-  ]);
+// 在此处修改为自己的关键词 ↓
+const CONTROLLED = new Set([
+  "#Field/BuildingEnergyConsumption",
+  "#Field/PassiveEnergy-savingTech",
+  "#Field/RadiantFloorHeating",
+  "#Field/IndoorThermalComfort",
+  "#Field/EnvelopeAging",
+  "#Field/MaterialDegradation",
+  "#Field/EnergySavingRetrofit",
+  "#Field/OccupantBehavior",
+  "#Field/IndoorAirQuality",
+  "#Object/Furniture",
+  "#Object/RuralResidence",
+  "#Object/Low-eMaterial",
+  "#Method/MachineLearning",
+  "#Method/ResidualAnalysis",
+  "#Method/TimeSeriesAnalysis",
+  "#Method/CFD",
+  "#Method/BuildingEnergySimulation",
+  "#Method/Experiment",
+  "#Type/Review"
+]);
 
-}
 ```
 ## 🤝 贡献
 
