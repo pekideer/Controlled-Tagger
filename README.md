@@ -29,9 +29,9 @@
 #### 受控词表示例 `./configs/controlled_list.json`
 
 ```json
-{
-  "namespaces": ["#Field", "#Object", "#Method", "#Type"],
-  "allowed": [
+在此处修改为自己的关键词↓
+ =========================
+  const CONTROLLED = new Set([
     "#Field/BuildingEnergyConsumption",
     "#Field/PassiveEnergy-savingTech",
     "#Field/RadiantFloorHeating",
@@ -51,10 +51,8 @@
     "#Method/BuildingEnergySimulation",
     "#Method/Experiment",
     "#Type/Review"
-  ],
-  "maxTags": 5,
-  "minTags": 3
-}
+  ]);
+ =========================
 ```
 ## 🤝 贡献
 
