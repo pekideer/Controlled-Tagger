@@ -28,9 +28,8 @@
 ## 🚀 快速开始
 
 #### 定制受控词表
-```json
-
-// 在此处修改为自己的关键词 ↓
+```text
+在此处修改为自己的关键词 ↓
 const CONTROLLED = new Set([
   "#Field/BuildingEnergyConsumption",
   "#Field/PassiveEnergy-savingTech",
@@ -52,6 +51,7 @@ const CONTROLLED = new Set([
   "#Method/Experiment",
   "#Type/Review"
 ]);
+
 
 ```
 ## 🤝 贡献
